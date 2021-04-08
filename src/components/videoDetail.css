@@ -1,0 +1,8 @@
+.video-box{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 850px;
+    height: 600px;
+    background-color:white;
+}

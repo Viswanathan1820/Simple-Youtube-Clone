@@ -1,0 +1,17 @@
+.list-box{
+    margin-top: 20px;
+    display:block;
+    width: 380px;
+    background:white;
+    margin-left: 10px;
+    
+    
+}
+.video-list{
+    display: grid;
+    grid-template-columns:1fr;
+     gap: 10px;
+     grid-auto-rows: minmax(100px, auto);
+     cursor: pointer;
+    
+}
