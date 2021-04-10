@@ -3,7 +3,7 @@ import './videoDetail.css'
 
 const VideoDetail = ({video})=>{
     if(!video){
-        return <div>Loading..</div>
+        return <div></div>
     }
     const videoSrc = `https://youtube.com/embed/${video.id.videoId}`;
     return(
